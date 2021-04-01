@@ -74,8 +74,8 @@ lastcol = ncols - 1
 #################
 
 # Setting both to 14.0mm made STEP files I could not open.
-keyswitch_height = 14.1
-keyswitch_width = 14.1
+keyswitch_height = 14.4
+keyswitch_width = 14.4
 
 sa_profile_key_height = 12.7
 
@@ -84,11 +84,20 @@ mount_width = keyswitch_width + 3
 mount_height = keyswitch_height + 3
 mount_thickness = plate_thickness
 
+#Trying the switch here.
+#SWITCH_WIDTH = 14
+#SWITCH_HEIGHT = 14
+#CLIP_THICKNESS = 1.4
+#CLIP_UNDERCUT = 1.0
+#UNDERCUT_TRANSITION = .2
+
 SWITCH_WIDTH = 14
 SWITCH_HEIGHT = 14
-CLIP_THICKNESS = 1.4
+CLIP_THICKNESS = 1.55 # was 1.4.
 CLIP_UNDERCUT = 1.0
 UNDERCUT_TRANSITION = .2
+
+
 
 hot_swap = True
 
