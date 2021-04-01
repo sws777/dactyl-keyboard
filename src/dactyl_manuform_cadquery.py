@@ -73,9 +73,9 @@ lastcol = ncols - 1
 ## Switch Hole ##
 #################
 
-# Setting both to 14.0 to tighten up key fit
-keyswitch_height = 14
-keyswitch_width = 14
+# Setting both to 14.0mm made STEP files I could not open.
+keyswitch_height = 14.1
+keyswitch_width = 14.1
 
 sa_profile_key_height = 12.7
 
