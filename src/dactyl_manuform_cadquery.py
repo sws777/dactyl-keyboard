@@ -19,7 +19,7 @@ def rad2deg(rad: float) -> float:
 # ## Shape parameters ##
 # ######################
 
-show_caps = True
+show_caps = False
 
 nrows = 5  # key rows
 ncols = 6  # key columns
@@ -73,8 +73,9 @@ lastcol = ncols - 1
 ## Switch Hole ##
 #################
 
-keyswitch_height = 14.4  ## Was 14.1, then 14.25
-keyswitch_width = 14.4
+# Setting both to 14.0 to tighten up key fit
+keyswitch_height = 14
+keyswitch_width = 14
 
 sa_profile_key_height = 12.7
 
@@ -89,7 +90,7 @@ CLIP_THICKNESS = 1.4
 CLIP_UNDERCUT = 1.0
 UNDERCUT_TRANSITION = .2
 
-hot_swap = False
+hot_swap = True
 
 plate_file = None
 plate_offset = 0.0
