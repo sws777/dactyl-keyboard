@@ -76,15 +76,17 @@ lastcol = ncols - 1
 # Setting both to 14.0mm made STEP files I could not open.
 # These used to be 14.4mm each. 
 # 14.1 just generates the top and rj-9 box
-keyswitch_height = 14.2
-keyswitch_width = 14.2
+keyswitch_height = 14.4
+keyswitch_width = 14.4
 
 sa_profile_key_height = 12.7
 
-plate_thickness = 4
+plate_thickness = 5
+#plate_thickness = 4
 mount_width = keyswitch_width + 3
+#mount_width = keyswitch_width + 4
 mount_height = keyswitch_height + 3
-mount_thickness = plate_thickness
+#mount_height = keyswitch_height + 4
 
 #Trying the switch here.
 #SWITCH_WIDTH = 14
