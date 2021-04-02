@@ -89,7 +89,8 @@ mount_height = keyswitch_height + 3
 hot_swap = True
 
 plate_file = None
-plate_offset = 0.0
+plate_offset = 1.0
+#plate_offset = 0.0
 
 if hot_swap:
     symmetry = "asymmetric"
