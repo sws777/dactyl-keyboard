@@ -81,26 +81,9 @@ keyswitch_width = 14.4
 
 sa_profile_key_height = 12.7
 
-plate_thickness = 5
-#plate_thickness = 4
+plate_thickness = 4
 mount_width = keyswitch_width + 3
-#mount_width = keyswitch_width + 4
 mount_height = keyswitch_height + 3
-#mount_height = keyswitch_height + 4
-
-#Trying the switch here.
-#SWITCH_WIDTH = 14
-#SWITCH_HEIGHT = 14
-#CLIP_THICKNESS = 1.4
-#CLIP_UNDERCUT = 1.0
-#UNDERCUT_TRANSITION = .2
-
-##SWITCH_WIDTH = 14
-##SWITCH_HEIGHT = 14
-##CLIP_THICKNESS = 1.55 # was 1.4.
-##CLIP_UNDERCUT = 1.0
-##UNDERCUT_TRANSITION = .2
-##
 
 
 hot_swap = True
