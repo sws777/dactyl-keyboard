@@ -74,8 +74,9 @@ lastcol = ncols - 1
 #################
 
 # Setting both to 14.0mm made STEP files I could not open.
-keyswitch_height = 14.4
-keyswitch_width = 14.4
+# These used to be 14.4mm each. 
+keyswitch_height = 14.1
+keyswitch_width = 14.1
 
 sa_profile_key_height = 12.7
 
